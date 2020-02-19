@@ -5,7 +5,7 @@
 
 
 class EmailAddressParser
-
+attr_accessor :parse
 
 def initialize(string)
 
@@ -14,10 +14,7 @@ def initialize(string)
     @parse.uniq!
 end 
 
-def parse 
 
-    @parse 
-end 
 
 end 
 
